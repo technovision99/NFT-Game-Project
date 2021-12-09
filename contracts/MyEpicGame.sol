@@ -202,7 +202,7 @@ contract MyEpicGame is ERC721, VRFConsumerBase {
                         charAttributes.name,
                         " -- NFT #: ",
                         Strings.toString(_tokenId),
-                        '", "description": "This is an NFT that lets people play in the game Metaverse Slayer!", "image": "',
+                        '", "description": "This is a cool NFT!", "image": "ipfs://',
                         charAttributes.imageURI,
                         '", "attributes": [ { "trait_type": "Health Points", "value": ',
                         strHp,
